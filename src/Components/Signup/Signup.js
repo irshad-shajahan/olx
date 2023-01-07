@@ -84,7 +84,9 @@ export default function Signup() {
           <button>Signup</button>
         </form>
         {/* eslint-disable-next-line */}
-        <a>Login</a>
+        <a onClick={()=>{
+          history.push('/login')
+        }}>Login</a>
       </div>
     </div>
   );

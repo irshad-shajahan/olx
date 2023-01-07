@@ -49,7 +49,9 @@ function Login(){
           <button>Login</button>
         </form>
         {/* eslint-disable-next-line */}
-        <a>Signup</a>
+        <a onClick={()=>{
+          history.push('/signup')
+        }}>Signup</a>
       </div>
     </div>
   );
